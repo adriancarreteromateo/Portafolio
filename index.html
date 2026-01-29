@@ -22,7 +22,7 @@
                     <a href="#proyectos">PROYECTOS</a>
                 </section>
                 <section>
-                    <a href="#skills">SKILLS</a>
+                    <a href="#trayectoria">TRAYECTORIA</a>
                 </section>
             </nav>
         </main>
@@ -38,49 +38,267 @@
             <section>
                 <h4>Adrián Carretero Mateo</h4>
                 <h5>Estudiante 2º DAW</h5>
-                <p> Me considero una persona sociable que disfruta del trabajo en equipo y del intercambio de ideas.<br>
-                    Mi mentalidad se basa en la disciplina y la constancia que he adquirido a través del deporte, 
-                    valores que traslado a mi día a día profesional. Soy alguien proactivo y con facilidad para conectar con las personas, 
-                    siempre enfocado en aportar soluciones positivas en entornos colaborativos.
+                <p>
+                    Me considero una persona dinámica que disfruta impulsando proyectos a través del trabajo en equipo y la colaboración. 
+                    Cuento con gran iniciativa y una firme determinación para superar retos. <br>
+                    Mi enfoque se basa en la resolución ágil de problemas y una total adaptabilidad ante los cambios. 
+                    Tengo muchas ganas de comenzar a trabajar y aplicar mi disciplina en el desarrollo de soluciones web reales.
                 </p>
             </section>
-            <footer>
+            <aside>
                 <p><span class="material-symbols-outlined"> mail </span> &nbsp; carreteromateoadrian@gmail.com </p>
                 <p><span class="material-symbols-outlined"> call </span> &nbsp; +34 665 91 94 33</p>
                 <p><span class="material-symbols-outlined"> home_pin </span> &nbsp; Aspe, Alicante (03680) </p>
                 <p><span class="material-symbols-outlined"> calendar_today </span> &nbsp; 19/10/2006 </p>
                 <p><span class="material-symbols-outlined"> directions_car </span> &nbsp; Carnet B </p>
-            </footer>
+            </aside>
+
+            <article class="contenedor-botones">
+                <a href="curriculum.pdf" target="_blank" class="btn-inicio">
+                    Ver CV <span class="material-symbols-outlined">description</span>
+                </a>
+                <a href="https://github.com/adriancarreteromateo/" target="_blank" class="btn-inicio">
+                    GitHub <span class="material-symbols-outlined">code</span>
+                </a>
+                <a href="https://www.linkedin.com/in/adriancarreteromateo/" target="_blank" class="btn-inicio">
+                    LinkedIn <span class="material-symbols-outlined">group</span>
+                </a>
+            </article>
         </main>
     </main>
 
     <main class="main-proyectos" id="proyectos">
         <h3>PROYECTOS</h3>
-        <section id="carrusel">
-            <a href="https://www.streetkings.pro" target="_blank">
-                <aside id="street-kings" class="proyecto">
+        
+        <main class="contenedor-carrusel">
+            <button class="carrusel-btn prev" id="btn-prev">
+                <span class="material-symbols-outlined">arrow_back_ios</span>
+            </button>
+            <section id="carrusel">
+                <article class="proyecto">
                     <img src="img/StreetKings.png" alt="Logo Street Kings">
-                    Street Kings
-                </aside>
-            </a>
-            <a href="https://github.com/adriancarretero19/Wolves-Sheeps" target="_blank">
-                <aside id="proyecto-1-daw" class="proyecto">
+                    <h4>Street Kings</h4>
+                    <details class="desplegable">
+                        <summary>+ Info</summary>
+                        <article class="contenido-desplegable">
+                            <p>Página web para una Liga Local de Fútbol Sala en Aspe.<br>
+                                <span class="material-symbols-outlined">html</span>
+                                <span class="material-symbols-outlined">css</span>
+                                <span class="material-symbols-outlined">javascript</span>
+                                <span class="material-symbols-outlined">php</span>
+                                <span class="material-symbols-outlined">database</span>
+                            </p>
+                            <a href="https://www.streetkings.pro" target="_blank" class="btn-visitar">
+                                Visitar Web <span class="material-symbols-outlined">open_in_new</span>
+                            </a>
+                        </article>
+                    </details>
+                </article>
+
+                <article class="proyecto">
                     <img src="img/Proyecto1DAW.png" alt="Logo Proyecto 1º DAW">
-                    Proyecto 1º DAW
-                </aside>
-            </a>
-            <a href="https://maps.app.goo.gl/9vEppReJD71fyVJQ6" target="_blank">
-                <aside id="marcos-delicatessen" class="proyecto">
+                    <h4>Proyecto 1º DAW</h4>
+                    <details class="desplegable">
+                        <summary>+ Info</summary>
+                        <article class="contenido-desplegable">
+                            <p>Juego sobre la simulación de un mundo con Lobos y Ovejas.<br>
+                                <span class="material-symbols-outlined">html</span>
+                                <span class="material-symbols-outlined">css</span>
+                                <span class="material-symbols-outlined">javascript</span>
+                                <span class="material-symbols-outlined">terminal</span>
+                            </p>
+                            <a href="https://github.com/adriancarreteromateo/Wolves-Sheeps" target="_blank" class="btn-visitar">
+                                Ver en GitHub <span class="material-symbols-outlined">code</span>
+                            </a>
+                        </article>
+                    </details>
+                </article>
+
+                <article class="proyecto">
+                    <img src="img/gestor-presupuesto.png" alt="Foto Gestor de Presupuesto">
+                    <h4>Gestor Presupuesto</h4>
+                    <details class="desplegable">
+                        <summary>+ Info</summary>
+                        <article class="contenido-desplegable">
+                            <p>Práctica para el aprendizaje de JavaScript durante 2º DAW.<br>
+                                <span class="material-symbols-outlined">html</span>
+                                <span class="material-symbols-outlined">css</span>
+                                <span class="material-symbols-outlined">javascript</span>
+                                <span class="material-symbols-outlined">api</span>
+                            </p>
+                            <a href="https://github.com/adriancarreteromateo/DWEC_gestorPresupuesto_25_26" target="_blank" class="btn-visitar">
+                                Ver en GitHub <span class="material-symbols-outlined">code</span>
+                            </a>
+                        </article>
+                    </details>
+                </article>
+
+                <article class="proyecto">
                     <img src="img/MarcosDelicatessen.png" alt="Logo Marcos Delicatessen">
-                    Marcos Delicatessen
-                </aside>
-            </a>
-        </section>
+                    <h4>Marcos Delicatessen</h4>
+                    <details class="desplegable">
+                        <summary>+ Info</summary>
+                        <article class="contenido-desplegable">
+                            <p>Página web, hoja de cálculos y aparición en Google Maps.<br>
+                                <span class="material-symbols-outlined">html</span>
+                                <span class="material-symbols-outlined">css</span>
+                                <span class="material-symbols-outlined">javascript</span>
+                                <span class="material-symbols-outlined">php</span><br>
+                                <span class="material-symbols-outlined">database</span>
+                                <span class="material-symbols-outlined">calculate</span>
+                                <span class="material-symbols-outlined">map</span>
+                            </p>
+                            <a href="https://maps.app.goo.gl/9vEppReJD71fyVJQ6" target="_blank" class="btn-visitar">
+                                Ver Ficha <span class="material-symbols-outlined">map</span>
+                            </a>
+                        </article>
+                    </details>
+                </article>
+
+                <article class="proyecto">
+                    <img src="img/KoadGames.png" alt="Logo Street Kings">
+                    <h4>Proyecto 2º DAW</h4>
+                    <details class="desplegable">
+                        <summary>+ Info</summary>
+                        <article class="contenido-desplegable">
+                            <p>Tienda online de videojuegos físicos (con caché incluida).<br>
+                                <span class="material-symbols-outlined">html</span>
+                                <span class="material-symbols-outlined">css</span>
+                                <span class="material-symbols-outlined">javascript</span>
+                                <span class="material-symbols-outlined">terminal</span>
+                                <span class="material-symbols-outlined">database</span>
+                            </p>
+                            <a class="btn-visitar">
+                                En curso <!--<span class="material-symbols-outlined">open_in_new</span>-->
+                            </a>
+                        </article>
+                    </details>
+                </article>
+
+                <article class="proyecto">
+                    <img src="img/StreetKings.png" alt="Logo Street Kings">
+                    <h4>Fantasy Street Kings</h4>
+                    <details class="desplegable">
+                        <summary>+ Info</summary>
+                        <article class="contenido-desplegable">
+                            <p>Juego para plataforma móvil de la liga Street Kings.</p>
+                            <a class="btn-visitar">
+                                En curso <!--<span class="material-symbols-outlined">open_in_new</span>-->
+                            </a>
+                        </article>
+                    </details>
+                </article>
+            </section>
+            <button class="carrusel-btn next" id="btn-next">
+                <span class="material-symbols-outlined">arrow_forward_ios</span>
+            </button>
+        </main>
     </main>
 
-    <main class="main-skills" id="skills">
-        <p></p>
+    <main class="main-trayectoria" id="trayectoria">
+        <h3 class="titulo-trayectoria">TRAYECTORIA</h3>
+        <main class="contenedor-trayectoria">
+            <main class="columna-trayectoria">
+                <h4><span class="material-symbols-outlined">work</span> Experiencia</h4>
+                
+                <section class="trayectoria-item">
+                    <span class="fecha">2024 - Actualidad</span>
+                    <article class="tarjeta">
+                        <h5>Desarrollador Web, Cofundador, Secretario & CM</h5>
+                        <h6>Street Kings</h6>
+                        <p>Creación desde 0 en solitario, despliegue y mantenimiento web, gestion de las redes sociales y cargos como secretario.</p>
+                    </article>
+                </section>
+
+                <section class="trayectoria-item">
+                    <span class="fecha">2024</span>
+                    <article class="tarjeta">
+                        <h5>Técnico SMR (Prácticas)</h5>
+                        <h6>Marcos Delicatessen</h6>
+                        <p>Creación y mantenimiento de página web durante 1 año, crear una hoja de cálculo para optimizar sus finanzas y aparición en Google Maps.</p>
+                    </article>
+                </section>
+
+                <section class="trayectoria-item">
+                    <span class="fecha">Veranos 2022-2025</span>
+                    <article class="tarjeta">
+                        <h5>Mantenimiento</h5>
+                        <h6>Jardinería y Campos</h6>
+                        <p>Trabajos físicos sobre la limpieza y el mantenimiento de campos y jardínes.</p>
+                    </article>
+                </section>
+            </main>
+
+            <main class="columna-trayectoria">
+                <h4><span class="material-symbols-outlined">school</span> Formación</h4>
+                
+                <section class="trayectoria-item">
+                    <span class="fecha">2024 - Actualidad</span>
+                    <article class="tarjeta">
+                        <h5>Grado Superior Desarrolo de Aplicaciones Web</h5>
+                        <h6>IES Mare Nostrum, Alicante</h6>
+                        <p>Desarrollo de aplicaciones web escalables, integración de servicios Frontend/Backend y virtualización con Docker.</p>
+                    </article>
+                </section>
+
+                <section class="trayectoria-item">
+                    <span class="fecha">2022 - 2024</span>
+                    <article class="tarjeta">
+                        <h5>Grado Medio Sistemas Microinformáticos y Redes</h5>
+                        <h6>IES Villa de Aspe, Aspe</h6>
+                        <p>Administración de Sistemas Operativos, configuración de servicios de red y fundamentos de ciberseguridad.</p>
+                    </article>
+                </section>
+                <section class="trayectoria-item">
+                    <span class="fecha">2018 - 2022</span>
+                    <article class="tarjeta">
+                        <h5>Educación Secundaria Obligatoria</h5>
+                        <h6>IES La Nía, Aspe</h6>
+                        <p>&nbsp;</p>
+                    </article>
+                </section>
+            </main>
+        </main>
+
+        <h3 class="titulo-subseccion">HABILIDADES & CERTIFICACIONES</h3>
+        <main class="contenedor-skills">
+            <section class="skill-tarjeta">
+                <span class="material-symbols-outlined">html</span> <span>HTML / CSS</span>
+            </section>
+            <section class="skill-tarjeta">
+                <span class="material-symbols-outlined">javascript</span> <span>JavaScript</span>
+            </section>
+            <section class="skill-tarjeta">
+                <span class="material-symbols-outlined">terminal</span> <span>C# / .NET</span>
+            </section>
+            <section class="skill-tarjeta">
+                <span class="material-symbols-outlined">php</span> <span>PHP</span>
+            </section>
+            <section class="skill-tarjeta">
+                <span class="material-symbols-outlined">database</span> <span>SQL</span>
+            </section>
+            <section class="skill-tarjeta">
+                <span class="material-symbols-outlined">deployed_code</span> <span>Docker / Git</span>
+            </section>
+            
+            <section class="skill-tarjeta especial">
+                <span class="material-symbols-outlined">translate</span> <span>Inglés B1</span>
+            </section>
+            <section class="skill-tarjeta especial">
+                <span class="material-symbols-outlined">group</span> <span>Trabajo en Equipo</span>
+            </section>
+
+            <section class="skill-tarjeta certificado">
+                <span class="material-symbols-outlined">directions_car</span> <span>Carnet B</span>
+            </section>
+            <section class="skill-tarjeta certificado">
+                <span class="material-symbols-outlined">restaurant</span> <span>Manipulador Alimentos</span>
+            </section>
+            <section class="skill-tarjeta certificado">
+                <span class="material-symbols-outlined">keyboard</span> <span>Mecanografía</span>
+            </section>
+        </main>
     </main>
-    <!-- <script src="portafolio.js"></script> -->
+    <script src="carrusel.js"></script>
 </body>
 </html>
